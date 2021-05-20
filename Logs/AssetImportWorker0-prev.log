@@ -1,0 +1,311 @@
+Using pre-set license
+Built from '2021.1/staging' branch; Version is '2021.1.7f1 (d91830b65d9b) revision 14227504'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Home; OS build 19041.985; Version 2004; 64bit' Language: 'en' Physical Memory: 16311 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.1.7f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+D:/Unity Projects/Sparrow (1.7v2)
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+54263
+Successfully changed project path to: D:/Unity Projects/Sparrow (1.7v2)
+D:/Unity Projects/Sparrow (1.7v2)
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 129.58 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.1.7f1 (d91830b65d9b)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.1.7f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Unity Projects/Sparrow (1.7v2)/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1080 (ID=0x1b80)
+    Vendor:   NVIDIA
+    VRAM:     8079 MB
+    Driver:   27.21.14.5671
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.1.7f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.1.7f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.1.7f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56968
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.1.7f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.1.7f1/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.1.7f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.1.7f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.1.7f1/Editor/Data/PlaybackEngines/LuminSupport/UnityEditor.Lumin.Extensions.dll
+Registered in 0.003585 seconds.
+Native extension for Lumin target not found
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 115.66 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.762 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.002072 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Unity Projects\Sparrow (1.7v2)\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Unity Projects\Sparrow (1.7v2)\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for Lumin target not found
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 95.67 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.188 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.53 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3682 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 138.8 MB.
+System memory in use after: 138.9 MB.
+
+Unloading 30 unused Assets to reduce memory usage. Loaded Objects now: 4139.
+Total: 2.222800 ms (FindLiveObjects: 0.246600 ms CreateObjectMapping: 0.156000 ms MarkObjects: 1.724700 ms  DeleteObjects: 0.094800 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Entities/Player/PlayerControls.cs
+  artifactKey: Guid(9c0143706d8312246bec4128c160e231) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Entities/Player/PlayerControls.cs using Guid(9c0143706d8312246bec4128c160e231) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b02dca022d35cfeb3e4cd9e39e5e751') in 0.035273 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.112601 seconds.
+  path: Assets/Entities/Player/Player.Controls.cs
+  artifactKey: Guid(9c0143706d8312246bec4128c160e231) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Entities/Player/Player.Controls.cs using Guid(9c0143706d8312246bec4128c160e231) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b3c10e586919d90136ad27b7f12b7ae') in 0.007478 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001979 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Unity Projects\Sparrow (1.7v2)\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Unity Projects\Sparrow (1.7v2)\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for Lumin target not found
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.79 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.005 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.58 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3677 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 138.9 MB.
+System memory in use after: 139.0 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 4143.
+Total: 3.653900 ms (FindLiveObjects: 0.419300 ms CreateObjectMapping: 0.269300 ms MarkObjects: 2.881700 ms  DeleteObjects: 0.082300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002253 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Unity Projects\Sparrow (1.7v2)\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Unity Projects\Sparrow (1.7v2)\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for Lumin target not found
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.54 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.983 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.37 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3677 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 139.0 MB.
+System memory in use after: 139.1 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 4147.
+Total: 3.332900 ms (FindLiveObjects: 0.319100 ms CreateObjectMapping: 0.196800 ms MarkObjects: 2.707200 ms  DeleteObjects: 0.108600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002065 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Unity Projects\Sparrow (1.7v2)\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Unity Projects\Sparrow (1.7v2)\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for Lumin target not found
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.56 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.962 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.95 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3677 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 139.0 MB.
+System memory in use after: 139.2 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 4151.
+Total: 3.053500 ms (FindLiveObjects: 0.298500 ms CreateObjectMapping: 0.220400 ms MarkObjects: 2.423600 ms  DeleteObjects: 0.109800 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 150.447834 seconds.
+  path: Assets/Entities/Player/Controller.cs
+  artifactKey: Guid(04d24e5b4ad381a40b88abedceb8d9b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Entities/Player/Controller.cs using Guid(04d24e5b4ad381a40b88abedceb8d9b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '381ba3c96e4c16d7160627581522e14f') in 0.005728 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.078421 seconds.
+  path: Assets/Entities/Player/actualcontrols.cs
+  artifactKey: Guid(04d24e5b4ad381a40b88abedceb8d9b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Entities/Player/actualcontrols.cs using Guid(04d24e5b4ad381a40b88abedceb8d9b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7f1c48fa62dff823323060724c99f7e') in 0.006319 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.979264 seconds.
+  path: Assets/Entities/Player/Controller.cs
+  artifactKey: Guid(9c0143706d8312246bec4128c160e231) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Entities/Player/Controller.cs using Guid(9c0143706d8312246bec4128c160e231) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3571e335c5fbfc38542ceee0d6b0dd48') in 0.002878 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.701120 seconds.
+  path: Assets/Entities/Player/Controls.cs
+  artifactKey: Guid(04d24e5b4ad381a40b88abedceb8d9b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Entities/Player/Controls.cs using Guid(04d24e5b4ad381a40b88abedceb8d9b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3710eb9e73e1cbb3b224e251347c645d') in 0.002293 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002016 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Unity Projects\Sparrow (1.7v2)\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Unity Projects\Sparrow (1.7v2)\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for Lumin target not found
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.07 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.966 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.97 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3677 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 139.1 MB.
+System memory in use after: 139.2 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 4155.
+Total: 3.951900 ms (FindLiveObjects: 0.287400 ms CreateObjectMapping: 0.292500 ms MarkObjects: 3.232000 ms  DeleteObjects: 0.138800 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 27.654391 seconds.
+  path: Assets/Entities/Player/Player.prefab
+  artifactKey: Guid(76efd5db5845a774498c26de9ee9c17c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Entities/Player/Player.prefab using Guid(76efd5db5845a774498c26de9ee9c17c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ce180299df7d8ed914154e6af0548bf') in 0.094378 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.949486 seconds.
+  path: Assets/Entities/Player/Player.prefab
+  artifactKey: Guid(76efd5db5845a774498c26de9ee9c17c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Entities/Player/Player.prefab using Guid(76efd5db5845a774498c26de9ee9c17c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b300d2378cf2308a4bc0e8c40f1a5f6') in 0.008513 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.149890 seconds.
+  path: Assets/Entities/Player/Controls.cs
+  artifactKey: Guid(04d24e5b4ad381a40b88abedceb8d9b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Entities/Player/Controls.cs using Guid(04d24e5b4ad381a40b88abedceb8d9b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ac98848fc0b37f72d82f0be9f51e779') in 0.001701 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003333 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Unity Projects\Sparrow (1.7v2)\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Unity Projects\Sparrow (1.7v2)\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for Lumin target not found
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.63 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.189 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.57 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3677 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 143.2 MB.
+System memory in use after: 143.3 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 4166.
+Total: 2.341600 ms (FindLiveObjects: 0.246800 ms CreateObjectMapping: 0.179800 ms MarkObjects: 1.834800 ms  DeleteObjects: 0.079300 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 191.396786 seconds.
+  path: Assets/Entities/Player/Player.prefab
+  artifactKey: Guid(76efd5db5845a774498c26de9ee9c17c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Entities/Player/Player.prefab using Guid(76efd5db5845a774498c26de9ee9c17c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3feadb5429525c6b4c8e6d6121ed1f61') in 0.065337 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.921424 seconds.
+  path: Assets/Entities/Player/Player.prefab
+  artifactKey: Guid(76efd5db5845a774498c26de9ee9c17c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Entities/Player/Player.prefab using Guid(76efd5db5845a774498c26de9ee9c17c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'edc498cc48958c2f2fe02867620d8fbe') in 0.006860 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.057876 seconds.
+  path: Assets/Entities/Player/Player.prefab
+  artifactKey: Guid(76efd5db5845a774498c26de9ee9c17c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Entities/Player/Player.prefab using Guid(76efd5db5845a774498c26de9ee9c17c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21bbed7eea5e7558f01324b6b1ec4bc0') in 0.007798 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002834 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Unity Projects\Sparrow (1.7v2)\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Unity Projects\Sparrow (1.7v2)\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for Lumin target not found
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.32 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.191 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.55 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3677 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 143.3 MB.
+System memory in use after: 143.4 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 4171.
+Total: 2.240200 ms (FindLiveObjects: 0.238200 ms CreateObjectMapping: 0.155100 ms MarkObjects: 1.768200 ms  DeleteObjects: 0.077800 ms)
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
