@@ -28,7 +28,7 @@ public class Timer : MonoBehaviour
 
     public void Reset()
     {
-        time = init_time;
+        time = initTime;
         Start();
     }
 

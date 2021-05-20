@@ -110,24 +110,24 @@ namespace Player {
             {
                 if (t_JumpGrace.running) 
                 {
-                    Controls.Jump.Clear();
+                    Controls.Jump.ClearBuffer();
                     Jump();
                 } 
                 else 
                 {
                     if (onWallRight && onWallLeft) 
                     {
-                        Controls.Jump.Clear();
+                        Controls.Jump.ClearBuffer();
                         WallJump(-1);
                     }
                     else if (onWallRight) 
                     {
-                        Controls.Jump.Clear();
+                        Controls.Jump.ClearBuffer();
                         WallJump(-1);
                     } 
                     else if (onWallLeft) 
                     {
-                        Controls.Jump.Clear();
+                        Controls.Jump.ClearBuffer();
                         WallJump(1);
                     }
                 }

@@ -21,14 +21,8 @@ namespace Player {
 
         public void OnJump(InputAction.CallbackContext context)
         {
-            var val = context.ReadValue<float>();
-            if (val == 1) 
-            {
-                Jump.Reset();
-            }
-
-            Jump.SetValue(val);
+            Jump.SetValue(context.ReadValue<float>());
+            Jump.UpdateBuffer();
         }
     }
 }
-

@@ -14,6 +14,14 @@ public class BufferedInput
         inputValue = value;
     }
 
+    public void UpdateBuffer()
+    {
+        if (Held())
+        {
+            ResetBuffer();
+        }
+    }
+
     public bool Pressed()
     { 
         return buffer.running; 
@@ -24,12 +32,12 @@ public class BufferedInput
         return inputValue == 1; 
     }
 
-    public void Clear()
+    public void ClearBuffer()
     { 
         buffer.Clear(); 
     }
 
-    public void Reset()
+    public void ResetBuffer()
     { 
         buffer.Reset(); 
     }
