@@ -155,14 +155,16 @@ namespace Player {
             speedY = jumpSpeed;
         }
 
+        // Mover code likely to be separated out into own component
         private void Move()
         {
-            MoveX();
-            MoveY();
+            SetMoveX();
+            SetMoveY();
             var velocity = new Vector2(moveX, moveY);
             Body.MovePosition(Body.position + velocity);
         }
-        private void MoveX()
+
+        private void SetMoveX()
         {
             moveX = speedX * Time.deltaTime;
             var hit = CheckSolid(moveX, 0);
@@ -173,7 +175,7 @@ namespace Player {
             }
         }
 
-        private void MoveY()
+        private void SetMoveY()
         {
             moveY = speedY * Time.deltaTime;
             var hit = CheckSolid(0, moveY);
@@ -192,7 +194,7 @@ namespace Player {
             return hit[0];
         }
 
-
+        // Animation code likely to be separated out into own component
         void Animate() {
             if (Controls.moveX != 0f) {
                 if (Controls.moveX != facing.current) {
