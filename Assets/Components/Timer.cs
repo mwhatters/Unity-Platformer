@@ -3,44 +3,55 @@ using UnityEngine;
 public class Timer : MonoBehaviour
 {
     public float time = 0f;
-    private float init_time = 0f;
+    private float initTime = 0f;
 
     public bool running = false;
-    public bool stopped = false;
+    public bool stopped = true;
 
-
-    void Awake() {
+    void Awake()
+    {
         time = 0f;
-        running = false;
-        stopped = true;
+        Stop();
     }
 
-    void FixedUpdate() {
+    void FixedUpdate()
+    {
         if (time > 0)
         {
             time = Mathf.Max(0, time - Time.deltaTime);
-            if (time == 0) {
-                running = false;
-                stopped = true;
+            if (time == 0) 
+            {
+                Stop();
             }
         }
     }
 
-    public void Reset() {
+    public void Reset()
+    {
         time = init_time;
-        running = true;
-        stopped = false;
+        Start();
     }
 
-    public void Clear() {
+    public void Clear()
+    {
         time = 0f;
+        Stop();
+    }
+
+    private void Stop() {
         running = false;
         stopped = true;
     }
 
-    public static Timer New(GameObject obj, float time) {
+    private void Start() {
+        running = true;
+        stopped = false;
+    }
+
+    public static Timer New(GameObject obj, float time)
+    {
         var timer = obj.AddComponent<Timer>();
-        timer.init_time = time;
+        timer.initTime = time;
         return timer;
     }
 }

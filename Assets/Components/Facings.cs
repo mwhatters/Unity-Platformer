@@ -7,14 +7,17 @@ public class Facings
 
     public int current;
      
-    public Facings(int defaultFacing = 1) {
+    public Facings(int defaultFacing = 1)
+    {
         this.current = defaultFacing;
     }
 
-    public void Flip() {
+    public void Flip()
+    {
         current *= -1;
     }
-    public int Opposite() {
+    public int Opposite()
+    {
         return current * -1;
     }
 }

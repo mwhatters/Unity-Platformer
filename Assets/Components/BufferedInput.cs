@@ -9,23 +9,28 @@ public class BufferedInput
         this.buffer = buffer;
     }
 
-    public void SetValue(float value) {
+    public void SetValue(float value)
+    {
         inputValue = value;
     }
 
-    public bool Pressed() { 
+    public bool Pressed()
+    { 
         return buffer.running; 
     }
 
-    public bool Held() { 
+    public bool Held()
+    { 
         return inputValue == 1; 
     }
 
-    public void Clear() { 
+    public void Clear()
+    { 
         buffer.Clear(); 
     }
 
-    public void Reset() { 
+    public void Reset()
+    { 
         buffer.Reset(); 
     }
  }

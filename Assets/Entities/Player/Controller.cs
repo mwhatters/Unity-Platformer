@@ -63,7 +63,8 @@ namespace Player {
             var onWallRight = CheckSolid(0.2f, 0f);
             var onWallLeft = CheckSolid(-0.2f, 0f);
 
-            if (onGround) {
+            if (onGround) 
+            {
                 t_JumpGrace.Reset();
                 jumpGraceY = transform.position.y;
             }
@@ -73,44 +74,59 @@ namespace Player {
             {
                 var yMult = 1f;
 
-                if (Mathf.Abs(speedY) < halfGravityThreshold && Controls.Jump.Held()) {
+                if (Mathf.Abs(speedY) < halfGravityThreshold && Controls.Jump.Held()) 
+                {
                     yMult = 0.5f;
                 }
 
                 speedY -= gravity * yMult * Time.deltaTime;
 
-                if (speedY < fallSpeed) {
+                if (speedY < fallSpeed) 
+                {
                     speedY = Calc.Approach(speedY, fallSpeed, 1600f * Time.deltaTime);
-                } else {
+                } 
+                else 
+                {
                     speedY = Mathf.Max(speedY, fallSpeed);
                 }
             }
 
 
             // variable jumping
-            if (t_VarJump.running) {
-                if (Controls.Jump.Held()) {
+            if (t_VarJump.running) 
+            {
+                if (Controls.Jump.Held()) 
+                {
                     speedY = Mathf.Max(speedY, varJumpBoost);
-                } else {
+                } 
+                else 
+                {
                     t_VarJump.Clear();
                 }
             }
 
             // jump
-            if (Controls.Jump.Pressed()) {
-                if (t_JumpGrace.running) {
+            if (Controls.Jump.Pressed()) 
+            {
+                if (t_JumpGrace.running) 
+                {
                     Controls.Jump.Clear();
                     Jump();
-                } else {
-                    if (onWallRight && onWallLeft) {
+                } 
+                else 
+                {
+                    if (onWallRight && onWallLeft) 
+                    {
                         Controls.Jump.Clear();
                         WallJump(-1);
                     }
-                    else if (onWallRight) {
+                    else if (onWallRight) 
+                    {
                         Controls.Jump.Clear();
                         WallJump(-1);
                     } 
-                    else if (onWallLeft) {
+                    else if (onWallLeft) 
+                    {
                         Controls.Jump.Clear();
                         WallJump(1);
                     }
@@ -123,14 +139,16 @@ namespace Player {
             Animate();
         }
 
-        private void Jump() {
+        private void Jump() 
+        {
             t_JumpGrace.Clear();
             t_VarJump.Reset();
             speedY = jumpSpeed;
             transform.position = new Vector2(transform.position.x, jumpGraceY);
         }
 
-        private void WallJump(float dir) {
+        private void WallJump(float dir) 
+        {
             t_JumpGrace.Clear();
             t_VarJump.Reset();
             speedX = 10f * dir;
